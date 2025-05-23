@@ -16,12 +16,12 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
     {
-        question: "What is the capital of France?", 
+        question: "What number does Jalen Brunson wear on the Knicks?", 
         answers: [
-            { text: "London", correct: false },
-            { text: "Berlin", correct: false },
-            { text: "Paris", correct: true },
-            { text: "Madrib", correct: false },
+            { text: "17", correct: false },
+            { text: "13", correct: false },
+            { text: "11", correct: true },
+            { text: "2", correct: false },
         ],
 
     },
@@ -44,6 +44,21 @@ const quizQuestions = [
         ],
     }, 
     {
-        
+        question: "What number did Derrick Rose wear on the Chicago Bulls?",
+        answers: [
+            { text: "1", correct: true },
+            { text: "25", correct: false },
+            { text: "4", correct: false }, 
+            { text: "0", correct: false },
+        ],
+    }, 
+    {
+        question: "What number did Carmelo Anthony wear on Team USA?",
+        answers: [
+            { text: "7", correct: false },
+            { text: "00", correct: false },
+            { text: "35", correct: false }, 
+            { text: "15", correct: true },
+        ],
     }
 ]
